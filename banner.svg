@@ -1,0 +1,19 @@
+<svg width="1000" height="150" xmlns="http://www.w3.org/2000/svg">
+    <!-- Fundo do banner -->
+    <rect width="1000" height="150" fill="rgb(25, 49, 118)" />
+
+    <!-- Texto principal com sombra -->
+    <text x="50%" y="25%" dominant-baseline="middle" text-anchor="middle" font-size="38" fill="lightgray" font-family="Arial, sans-serif" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">
+        Laboratório de análises clínicas
+    </text>
+
+    <text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" font-size="48" fill="white" font-family="Arial, sans-serif" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);">
+        DIO.ME
+    </text>
+
+    <!-- Subtexto com um leve espaçamento -->
+    <text x="50%" y="80%" dominant-baseline="middle" text-anchor="middle" font-size="24" fill="lightgray" font-family="Arial, sans-serif">
+        atendimento especializado
+    </text>
+
+</svg>

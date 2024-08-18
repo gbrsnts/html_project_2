@@ -1,0 +1,168 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(200, 209, 247);
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: #f1f1f1;
+    padding: 250px 20px 0px;
+}
+
+.menu ul {
+    list-style-type: none; /* Remove os marcadores padrão da lista */
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.menu ul li a:hover {
+    color: #007BFF; /* Altera a cor do texto ao passar o mouse */
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+.header {
+    background-color: rgb(5, 108, 108);
+    min-height: 150px;
+}
+.content {
+    background-color: #f1f1f1;;
+    min-height: 300px;
+    padding: 20px;
+}
+
+.content table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.content table th, .content table td{
+    border: 1px solid #ddd;
+    color: black;
+    font-weight: bold;
+}
+
+.content table tr:nth-child(even){
+    background-color: white;
+}
+
+.content table tr:hover{
+    background-color: #ddd;
+}
+
+/* Estilo para o conteúdo geral */
+.content {
+    max-width: 800px; /* Limita a largura máxima do conteúdo */
+    margin: 20px auto; /* Centraliza o conteúdo horizontalmente e adiciona espaço acima e abaixo */
+    padding: 20px; /* Espaçamento interno */
+    border: 1px solid #ddd; /* Borda ao redor do conteúdo */
+    border-radius: 8px; /* Cantos arredondados */
+    background-color: #f9f9f9; /* Cor de fundo do conteúdo */
+    font-family: Arial, sans-serif; /* Fonte padrão */
+}
+
+/* Estilo para os parágrafos */
+.content p {
+    margin: 10px 0; /* Espaçamento acima e abaixo dos parágrafos */
+    font-size: 16px; /* Tamanho da fonte dos parágrafos */
+    color: #333; /* Cor do texto dos parágrafos */
+}
+
+/* Estilo para o formulário */
+.content form {
+    margin-top: 20px; /* Espaçamento acima do formulário */
+}
+
+/* Estilo para os labels no formulário */
+.content form label {
+    display: inline-block; /* Faz com que o label e o input fiquem na mesma linha */
+    width: 100px; /* Largura fixa para os labels */
+    font-weight: bold; /* Negrito nos labels */
+    color: #333; /* Cor do texto dos labels */
+    margin-bottom: 8px; /* Espaçamento abaixo dos labels */
+}
+
+/* Estilo para os inputs e textarea */
+.content form input[type="text"],
+.content form input[type="email"],
+.content form textarea {
+    width: calc(100% - 120px); /* Ocupa toda a largura disponível menos a largura do label */
+    padding: 8px; /* Espaçamento interno */
+    border: 1px solid #ccc; /* Borda clara */
+    border-radius: 4px; /* Cantos arredondados */
+    margin-bottom: 10px; /* Espaçamento abaixo dos campos */
+    box-sizing: border-box; /* Inclui a borda e o padding na largura total */
+    font-size: 16px; /* Tamanho da fonte */
+}
+
+/* Estilo para o botão Limpar */
+.content form button[type="reset"] {
+    background-color: #f0ad4e; /* Cor de fundo do botão Limpar */
+    color: white; /* Cor do texto do botão */
+    padding: 10px 20px; /* Espaçamento interno */
+    border: none; /* Remove a borda padrão do botão */
+    border-radius: 4px; /* Cantos arredondados */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    font-size: 16px; /* Tamanho da fonte */
+    margin-right: 10px; /* Espaçamento à direita do botão Limpar */
+}
+
+.content form button[type="reset"]:hover {
+    background-color: #ec971f; /* Cor de fundo do botão Limpar ao passar o mouse */
+}
+
+/* Estilo para o botão Enviar */
+.content form button[type="submit"] {
+    background-color: rgb(25, 49, 118); /* Cor de fundo do botão Enviar */
+    color: white; /* Cor do texto do botão */
+    padding: 10px 20px; /* Espaçamento interno */
+    border: none; /* Remove a borda padrão do botão */
+    border-radius: 4px; /* Cantos arredondados */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    font-size: 16px; /* Tamanho da fonte */
+}
+
+.content form button[type="submit"]:hover {
+    background-color: rgb(17, 35, 89); /* Cor de fundo do botão Enviar ao passar o mouse */
+}
+
+/* Estilo para o iframe do mapa */
+.content iframe {
+    width: 100%; /* Largura total do iframe */
+    height: 450px; /* Altura fixa do iframe */
+    border: 0; /* Remove a borda padrão do iframe */
+    border-radius: 8px; /* Cantos arredondados do iframe */
+    margin-top: 20px; /* Espaçamento acima do iframe */
+}
+
+
+.footer {
+    background-color: rgb(25, 49, 118);
+    min-height: 150px;
+    color: #f1f1f1;;
+    text-align: center;
+}
